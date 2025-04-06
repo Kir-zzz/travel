@@ -31,7 +31,7 @@ header div a {
     text-align: right;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-offset:Auto ;
+    text-decoration-offset: Auto;
     text-decoration-thickness: Auto;
 }
 
@@ -80,12 +80,17 @@ footer p {
 
 .banner h1 {
     font-family: Inter;
-    font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-mean span{
+    font-size: 20px;
 }
 
 .banner p {
@@ -126,4 +131,14 @@ footer p {
     width: 100%;
     max-width: 984px;
     margin: 0 auto ;
+}
+
+footer nav:hover {
+    color:red;
+    transition: 0.5s;
+}
+
+footer nav {
+    color:white;
+    transition: 0.5s;
 }
