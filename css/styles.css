@@ -133,12 +133,12 @@ footer p {
     margin: 0 auto ;
 }
 
-footer nav:hover {
+footer nav :hover {
     color:red;
     transition: 0.5s;
 }
 
-footer nav {
-    color:white;
+.lang a:hover {
+    color:red;
     transition: 0.5s;
 }
